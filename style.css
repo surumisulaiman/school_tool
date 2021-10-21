@@ -1,0 +1,811 @@
+:root{
+    --white:  #FFFFFF;
+    --black:  #262F47;
+    --black2: #4F4F4F; 
+    --blue:   #3362D9;
+    --green:#09A943;
+    --grayl:#F4F5F9;
+    --darkgray: #8A92A8;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.mw1140{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+body{
+    font-family:"poppins";
+    margin: auto;
+}
+ 
+h2{
+    font-family:"poppins";
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+h4{
+    font-family:"poppins";
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--black);
+
+}
+p{
+    font-family:"poppins";
+    font-weight: 400;
+    /* font-size: 18px; */
+    color: var(--black2);
+    /* text-align: justify; */
+    margin-bottom: 12px;
+       
+   
+    
+   
+} 
+
+a{
+    text-decoration: none; 
+  }
+  ul{
+    list-style-type: none;
+    
+  }
+.header_part{
+
+    background-image: url('images/bgimg.png');
+  
+}
+.header_logoitems{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+.mobilelogo{
+    display: none;
+}
+.header_parahedbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header_logoitems{
+   margin-left: 30px;
+   margin-right: 30px;
+    
+
+}
+.nav_items{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header_parahedbtn{
+    display: flex;
+    padding-top: 70px;
+   
+}
+
+
+
+.nav_button{
+    color: var(--white);
+    background-color: var(--blue);
+    font-size: 14px;
+    padding: 10px 15px;
+    border: 3px solid #FFFFFF;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.sign_up{
+    background-color: var(--green);  
+}
+
+.img{
+    width: 246px;
+    height: 60px;
+}
+.link{
+    font-size: 16px;
+    color: var(--white);
+    margin-right: 8px;
+}
+.img-menu{
+    text-align: center;
+}
+
+.header_heading{
+    font-family:"poppins";
+    font-weight: 700;
+    width: 900px;
+    color: var(--white);
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+
+}
+.header_paragraph{
+    font-family:"poppins";
+    font-weight: 600;
+    color: var(--white);
+    font-size: 18px;
+    /* text-align: center; */
+    width: 608px;
+    margin-bottom: 20px;
+    text-align:  center;
+
+
+}
+.nav_buttonsub{
+background: var(--green);
+border: 3px solid #FFFFFF;
+border-radius: 56px;
+color: var(--white);
+padding: 12px 25px;
+margin-bottom: 30px;
+font-size: 14px;
+font-weight: 600;
+
+}
+
+.link{
+    display: block;
+}
+.nav_webchat{
+    display: block;
+}
+.nav_menu{
+display: block;
+}
+
+/* My button style */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color:none;
+    cursor: pointer;
+    background: none;
+   
+  }
+  
+  
+  
+/**************** header Section End ***************** */
+.schoolapp-maindiv {
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+/* .icon{
+    display: none;
+} */
+.maindiv_head{
+    display: flex;
+}
+.inline_blk{
+    font-family: "poppins";
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black); 
+}
+
+.schoolapp{
+    display: flex;
+    margin-bottom: 24px;
+}
+.schoolapp_left{
+   width:65%;
+   padding-right: 40px;
+   text-align: justify;
+   
+   
+}
+.img_illustation {
+    margin-top: -186px;
+    width: 490px;
+
+}
+
+.schoolapp_right{
+  
+    width:35%
+   
+}
+.rightp80{
+    padding-left: 80px;
+}
+
+.timline_content{
+    border-left: 2px solid var(--grayl);
+    
+}
+.timeline{
+    margin-left: -8px;
+}
+/* timeline_area */
+
+/* The circles on the timeline */.event{
+  background-image: url('images/ball.png');
+  background-position: left top;
+  background-position: 0 7px;
+  background-repeat: no-repeat;
+  padding-left: 30px; /* Adjust according to image size to push text across. */
+    margin-bottom: 16px;
+}
+/* timeline_area */
+
+/* ***************** schoolappwork start**************** */
+
+.schoolapp_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: justify; */
+
+   
+
+}
+.schoolapptop_para{
+    font-size: 16px;
+    color: var(--black2);
+    margin-top: 20px;
+    
+    
+}
+
+.schoolapp_mid{
+    display: flex;
+   justify-content: space-between;
+}
+.data_schoolapp{ 
+    padding-right: 40px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+   
+  
+}
+.schoolapp_work{
+    background-color: var(--grayl);
+    padding-bottom: 70px;
+    padding-top: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.schoolapp_para{
+   font-size: 16px;
+   color: var(--black2);
+   
+}
+.para_schoolbottom{
+    margin-bottom: 40px;
+
+}
+.img_schoolapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    width: 60px;
+    height: 60px;
+}
+
+
+.inline_blk:hover {
+    color: var(--blue);
+
+  }
+
+.inline_blk:active {
+    color: var(--blue);
+
+  }
+
+
+
+/* 
+***************** schoolappwork end **************** */
+
+
+/* 
+***************** whereisaschool start**************** */
+
+
+.whereisa_schooltop{
+    display: flex;
+    flex-direction: column;
+    
+}
+h2{
+    text-align: center;
+    line-height: 130%;
+}
+.data_whereisa{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.img_where{
+    margin-right: 20px;
+    width: 130px;
+    height: 130px;
+
+}
+.para_whereisa{
+    font-size: 16px;
+    color: var(--black2);
+}
+
+.whereisa_headpara{
+    align-self: center;
+}
+
+
+
+/* ***************** whereisaschool end**************** */
+
+
+
+
+/* benefitsofschoolapp start  */
+
+.communication_imgpara{
+    display: flex;
+    margin-bottom: 16px;
+    
+   
+    
+}
+.data_communication{
+    margin-bottom: 40px;
+   
+}
+
+.img_featuresimg{
+    width: 50%;
+  
+}
+.img_featuresimgbig{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+   margin-bottom: 60px;
+   margin-top: 60px;
+
+}
+.para_firstsection{
+    margin-bottom: 20px;
+}
+.para_benefitapptop{
+    margin-bottom: 40px;
+}
+.img_datacom{
+    margin-right: 10px;
+}
+.para_benefitapptop{
+    text-align: justify;
+}
+
+
+
+/* ***************** benefitsofschoolapp end *************** */
+
+/* features schoolapp section start */
+.head_tnterface{
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+
+
+/* .img_featuresimg{
+    display: flex;
+    justify-content: center;  
+} */
+
+.images_features{
+    display: flex;
+    justify-content: center;
+   width: 100%;
+    
+}
+.ease_head{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.ease_para{
+    margin-bottom: 60px;
+}
+
+
+.features_secondsection{
+    margin-top: 60px;
+    
+
+}
+.datas_features{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.img_images{
+    width: 50%;
+}
+.headpara_featuressecond{
+    width: 50%;
+    padding: 0 40px 0 40px;
+}
+
+.images_managecom{
+    width: 50%;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.headpara_featuressecond{
+    display: flex;
+    flex-direction: column;
+    align-self: center ;
+   
+
+}
+.head_grophead{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.link_school{
+    text-decoration: none;
+    color: var(--blue);
+    font-weight: 700;
+}
+.link_school:hover {
+    border-bottom: 2px solid var(--blue);
+
+  }
+
+.link_school:active {
+    border-bottom: 2px solid var(--blue);
+
+  }
+/* features schoolapp section start */
+
+
+/* bestschool app start */
+
+.head_bestschool{
+    margin-bottom: 20px;
+}
+
+.para_bestschool{
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+.headpara_bestschool{
+    margin-bottom: 60px;
+}
+.images_enoughspace{
+    display: flex;
+    flex-direction: center;
+    
+}
+.headimgpara_divbest{
+    margin-bottom: 60px;
+}
+.bestschoolapp_boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.second_box{
+    
+    color: red;
+}
+
+.data_boxes{
+ 
+    background-color: var(--grayl);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+.first_box{
+    grid-column: 1/3;
+    color: red;
+}
+
+.linkschool{
+    
+    text-decoration: none;
+    color: var(--blue);
+    font-weight: 700;
+}
+.linkschool:hover {
+    border-bottom: 2px solid var(--blue);
+
+  }
+
+.linkschool:active {
+    border-bottom: 2px solid var(--blue);
+
+  
+}
+
+/* bestschool app end */
+
+
+
+/* footer Section  start */
+.footer_heading{
+    background-color: var(--blue);
+}
+.para_para1{
+    font-size: 16px;
+    text-align: justify;
+    
+}
+.footer_button{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    background-color: var(--green);
+    color: var(--white);
+    padding: 12px 25px;
+    border-radius: 56px;
+    border: 3px solid var(--white);  
+    font-size: 14px;  
+    font-weight: 600;
+}
+.head_footer{
+    color: var(--white);
+}
+.howarewe_head{
+    margin-top: 100px;
+}
+.howare_we{
+    margin-bottom: 100px;
+}
+.footer_heading{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.socialmedia_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    margin-bottom: 50px;
+   
+}
+.footer_itemsdiv{
+    display: flex;
+   justify-content: center;
+   justify-content: space-between;
+   margin-bottom: 50px;
+    }
+.footer_socialmedia{
+    
+    margin-top: 60px;
+   
+}
+
+.footer_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+   
+    
+}
+.images_socialmedia{
+    margin-left: 20px;
+}
+.footer_itemsdiv a{
+  color: var(--black);
+  font-size: 14px;
+}
+.footerbottom_head{
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--darkgray);
+}
+.footerbottom_subhead{
+    font-size: 12px;
+    font-weight: 600;
+    color: #858992;
+}
+
+.footer_itemsdiv a:hover {
+    border-bottom: 2px solid var(--blue);
+    color: var(--blue);
+
+  }
+
+.footer_itemsdiv a:active {
+    border-bottom: 2px solid var(--blue);
+    color: var(--blue);
+
+  }
+
+
+/* footer Section  end */
+
+
+
+
+
+/* Extra small devices (phones, 420px and down) */
+
+@media only screen and (max-width: 700px) {
+                            
+    body{
+        
+        width: 100%;
+        min-width: 360px;
+    }
+
+
+    .header_logoitems{
+        margin-right: 16px;
+       }
+       .link{
+        display: none;
+    }
+    .nav_webchat{
+        display: none;
+    }
+    .nav_menu{
+    display: none;
+    }
+    
+.nav_button{
+    margin-right: 6px;
+
+}
+
+.images_socialmedi{
+    display: none;
+}
+
+
+
+.schoolapp{
+    flex-direction: column;
+}
+.schoolapp_left {
+   width: 100%; 
+   padding-right: 0px;
+}
+.schoolapp_right {
+    width: 100%;
+}
+.rightp80{
+    padding-left: 0px;
+}
+.img_illustation{
+    width: 100%;
+}
+.schoolapp_mid{
+    flex-direction: column;
+}
+.data_schoolapp {
+    margin-top: 0px;
+}
+
+.img_where img{
+    width: 100%;
+}
+.bestschoolapp_boxes{
+    display: flex;
+    flex-direction: column;
+}
+.images_enoughspace{
+    width: 300px;
+}
+
+.datas_features{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.headpara_featuressecond{
+    width: 100%;
+}
+.img_images{
+    width: 100%;
+}
+
+
+
+
+/* header part responsive start */
+
+h2{
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
+}
+p{
+    font-size: 14px;
+}
+li a{
+    font-size: 14px;
+}
+.maindiv_head{
+    display: block;
+}
+.header_heading {
+    width:100%;
+    font-size: 30px;
+}
+
+.header_paragraph{
+    width: 100%;
+}
+.header_parahedbtn{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+/* header part responsive end */
+
+/* footer part responsive start */
+.footer_itemsdiv{
+    flex-direction: column;
+    align-items: center;
+}
+
+/* footer part responsive end*/
+
+.img_featuresimg {
+    width: 100%;
+}
+.footer_itemsdiv li{
+    margin-bottom: 10px;
+}
+.footer_heading {
+  
+    padding-top: 50px;
+}
+.img_illustation{
+    margin-bottom: 40px;
+}
+.timeline{
+    display: none;
+}
+
+.mobilelogo{
+    display: block;
+}
+.img{
+    display: none;
+}
